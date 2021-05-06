@@ -16,5 +16,41 @@ namespace PS2k.AssertionExceptions {
             if (!condition)
                 throw new AssertionException(message);
         }
+
+        [Conditional("DEBUG")]
+        public static void IsFalse(bool condition) {
+            if (condition)
+                throw new AssertionException();
+        }
+
+        [Conditional("DEBUG")]
+        public static void IsFalse(bool condition, string message) {
+            if (condition)
+                throw new AssertionException(message);
+        }
+
+        [Conditional("DEBUG")]
+        public static void IsNull(object obj) {
+            if (obj != null)
+                throw new AssertionException();
+        }
+
+        [Conditional("DEBUG")]
+        public static void IsNull(object obj, string message) {
+            if (obj != null)
+                throw new AssertionException(message);
+        }
+
+        [Conditional("DEBUG")]
+        public static void IsNotNull(object obj) {
+            if (obj == null)
+                throw new AssertionException();
+        }
+
+        [Conditional("DEBUG")]
+        public static void IsNotNull(object obj, string message) {
+            if (obj == null)
+                throw new AssertionException(message);
+        }
     }
 }
