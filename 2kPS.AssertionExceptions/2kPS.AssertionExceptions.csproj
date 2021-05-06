@@ -8,7 +8,7 @@
     <Company>2kPixel Studios LLC</Company>
     <Description>2kPS.AssertionExceptions is a small library that allows developers to write debugging assertions in more than just unit tests. The assertions will help in Debug builds, but will be stripped from Release builds.</Description>
     <RepositoryUrl>https://github.com/2kpixelstudios/2kps-assertion-exceptions</RepositoryUrl>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
