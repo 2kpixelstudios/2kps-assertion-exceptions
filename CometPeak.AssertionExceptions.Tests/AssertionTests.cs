@@ -2,9 +2,9 @@ using System;
 using NUnit.Framework;
 
 using NUnitAssert = NUnit.Framework.Assert;
-using PS2kAssert = PS2k.AssertionExceptions.Assert;
+using CometPeakAssert = CometPeak.AssertionExceptions.Assert;
 
-namespace PS2k.AssertionExceptions.Tests {
+namespace CometPeak.AssertionExceptions.Tests {
     [Parallelizable]
     public class AssertionTests {
         private bool isDebugBuild = false;
@@ -22,7 +22,7 @@ namespace PS2k.AssertionExceptions.Tests {
                 NUnitAssert.Ignore("This test is only for debug build mode.");
 
             NUnitAssert.Throws<AssertionException>(() => {
-                PS2kAssert.IsTrue(false, "This should be an assertion exception!");
+                CometPeakAssert.IsTrue(false, "This should be an assertion exception!");
             });
         }
 
@@ -32,7 +32,7 @@ namespace PS2k.AssertionExceptions.Tests {
                 NUnitAssert.Ignore("This test is only for release build mode.");
 
             NUnitAssert.DoesNotThrow(() => {
-                PS2kAssert.IsTrue(false, "This should NOT be thrown in release builds!");
+                CometPeakAssert.IsTrue(false, "This should NOT be thrown in release builds!");
             });
         }
     }

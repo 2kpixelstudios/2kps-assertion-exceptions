@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2kPS.AssertionExceptions", "2kPS.AssertionExceptions\2kPS.AssertionExceptions.csproj", "{FD7D52DE-CE9D-4624-9A71-77B260D01372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CometPeak.AssertionExceptions", "CometPeak.AssertionExceptions\CometPeak.AssertionExceptions.csproj", "{FD7D52DE-CE9D-4624-9A71-77B260D01372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2kPS.AssertionExceptions.Tests", "2kPS.AssertionExceptions.Tests\2kPS.AssertionExceptions.Tests.csproj", "{09F66D33-7308-49D6-B38F-42D3A14AFA36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CometPeak.AssertionExceptions.Tests", "CometPeak.AssertionExceptions.Tests\CometPeak.AssertionExceptions.Tests.csproj", "{09F66D33-7308-49D6-B38F-42D3A14AFA36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

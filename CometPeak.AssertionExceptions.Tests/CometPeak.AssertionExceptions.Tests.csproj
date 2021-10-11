@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>PS2k.AssertionExceptions.Tests</RootNamespace>
+    <RootNamespace>CometPeak.AssertionExceptions.Tests</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Carlos DaLomba</Authors>
-    <Company>2kPixel Studios LLC</Company>
-    <Description>Contains unit tests for 2kPS.AssertionExceptions.</Description>
-    <RepositoryUrl>https://github.com/2kpixelstudios/2kps-assertion-exceptions</RepositoryUrl>
-    <Version>0.1.0</Version>
+    <Company>Comet Peak Games</Company>
+    <Description>Contains unit tests for CometPeak.AssertionExceptions.</Description>
+    <RepositoryUrl>https://github.com/cometpeakgames/cometpeak-assertion-exceptions</RepositoryUrl>
+    <Version>0.1.1</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\2kPS.AssertionExceptions\2kPS.AssertionExceptions.csproj" />
+    <ProjectReference Include="..\CometPeak.AssertionExceptions\CometPeak.AssertionExceptions.csproj" />
   </ItemGroup>
 
 </Project>
