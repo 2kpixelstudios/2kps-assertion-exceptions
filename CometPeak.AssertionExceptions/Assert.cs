@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace PS2k.AssertionExceptions {
+namespace CometPeak.AssertionExceptions {
     /// <summary>
     /// Contains assertions that may be used outside of unit tests, and are only included in Debug builds.
     /// </summary>
