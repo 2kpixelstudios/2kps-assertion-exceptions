@@ -6,6 +6,7 @@ This changelog format is based on [Keep a Changelog](https://keepachangelog.com/
 
 # 0.1.2 - October 11, 2021
 ### Changed
+- Transferred ownership to Comet Peak Games LLC.
 - Changed the package, assembly names to "CometPeak" instead of "2kPS".
 - Changed the namespace names to "CometPeak" instead of "PS2k".
 
