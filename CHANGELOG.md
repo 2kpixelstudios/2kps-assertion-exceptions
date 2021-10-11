@@ -4,6 +4,11 @@ This changelog format is based on [Keep a Changelog](https://keepachangelog.com/
 
 ## [Unreleased]
 
+# 0.1.2 - October 11, 2021
+### Changed
+- Changed the package, assembly names to "CometPeak" instead of "2kPS".
+- Changed the namespace names to "CometPeak" instead of "PS2k".
+
 ## 0.1.1 - May 7, 2021
 ### Added
 - Added the following `Assert` methods:
